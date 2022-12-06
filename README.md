@@ -11,7 +11,7 @@ NA
 
 ## Usage
 
-The site can be accessed from the live URL :
+The site can be accessed from the live URL : https://boushka9.github.io/accessibility-is-groovy/
 
 To navigate the site use the three links in the navigation bar at the top right of the screen.
 
