@@ -3,13 +3,16 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./Develop/assets/css/style.css">
+    <!--descriptive title to show up on page tab-->
     <title>Horiseon: Search Engine Optimization</title>
 </head>
 
 <body>
+    <!--header for semantic html-->
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
+        <!--navigation menu placed inside nav-->
         <nav>
             <ul>
                 <li><a href="#search-engine-optimization">Search Engine Optimization</a></li>
@@ -19,9 +22,11 @@
         </nav>
     </header>
     <figure class="hero" title="Collaborative meeting"></figure>
+    <!--"article" used for main content of page w each subsection of main content placed w/in a section vs in a div-->
     <article class="content">
         <section id="#search-engine-optimization">
             <img class="float-left" src="./assets/images/search-engine-optimization.jpg" alt="Notebook with illustrations of SEO optimizers next to a laptop"/>
+            <!--each header w/in this section set to h2 for equal font size per section title-->
             <h2>Search Engine Optimization</h2>
             <p>The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.</p>
         </section>
@@ -36,8 +41,10 @@
             <p>Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.</p>
         </section>
     </article>
+    <!--"aside" used to indicate section of info is in a "sidebar"-->
     <aside class="benefits">
         <section>
+            <!--each section has h3 visibly smaller heading than main article, but also for speech reader to identify the headings in this section as sequentially after the ones in the main article-->
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="Half of a gear icon with arrow pointing to dollar sign"/>
             <p>Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.</p>
@@ -54,6 +61,7 @@
         </section>
     </aside>
     <footer>
+        <!--h4 header bc it needs to sequentially come after all other headers, smallest and least important compared to rest of content-->
         <h4>Made with ❤️️ by Horiseon</h4>
         <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
     </footer>

@@ -69,6 +69,7 @@ a {
     margin-left: 20px;
 }
 
+/*Each section w/in the content had a unique class (which defeats the purpose of a class) Instead used class selector on parent element article and element "section" to target each section within article */
 .content section {
     margin-bottom: 20px;
     padding: 50px;
@@ -77,12 +78,12 @@ a {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* class content and elements section and img used to apply to every img that is a child of content and section */
 .content section img {
     max-height: 200px;
 }
-
-article h2 {
+/* class content and element h2 used to apply to every h2 that is a child of content */
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -98,17 +99,19 @@ article h2 {
     background-color: #2589bd;
     text-align: center;
 }
-
+/* Removed unique class from each section. Used class selector on "aside" element to apply to each child "section" */
 .benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* class benefits and element h3 to apply to every h3 w/in element w class*/
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* class benefits and element img to apply to every img w/in element w class*/
 .benefits img {
     display: block;
     margin: 10px auto;
